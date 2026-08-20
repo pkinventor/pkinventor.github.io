@@ -16,33 +16,38 @@ header
     background:
         linear-gradient(
             135deg,
-            #FFF8C8,
-            #FFE89A
+            #FFF8D8,
+            #FFF2C0
         );
 
-    color: #2F3B52;
+    color: #4A5568;
 
     padding: 35px;
 
-    border-radius: 15px;
+    border-radius: 18px;
+
+    border: 1px solid rgba(0,0,0,0.05);
 
     box-shadow:
-        0 6px 15px rgba(0,0,0,0.15);
+        0px 8px 20px rgba(0,0,0,0.08);
 }
 
 header h1
 {
     font-family: 'Montserrat', sans-serif;
 
-    font-size: 3em;
+    font-size: 2.3em;
 
-    font-weight: 900;
+    font-weight: 600;
 
-    transform: rotate(-1deg);
+    letter-spacing: 1px;
+
+    margin-bottom: 8px;
+
+    color: #3F4A5A;
 
     text-shadow:
-        2px 2px 4px rgba(255,255,255,0.8),
-        4px 4px 8px rgba(0,0,0,0.15);
+        1px 1px 2px rgba(255,255,255,0.7);
 }
 
 h2
@@ -55,14 +60,16 @@ section
 {
     background-color: #FFFFFF;
 
-    padding: 25px;
+    padding: 28px;
 
-    margin-top: 20px;
+    margin-top: 25px;
 
-    border-radius: 12px;
+    border-radius: 18px;
+
+    border: 1px solid rgba(0,0,0,0.05);
 
     box-shadow:
-        0px 2px 8px rgba(0,0,0,0.08);
+        0px 4px 12px rgba(0,0,0,0.05);
 }
 
 ul
@@ -80,42 +87,46 @@ nav
 {
     display: inline-block;
 
-    padding: 12px 28px;
+    padding: 12px 24px;
 
-    margin-right: 12px;
+    margin-right: 10px;
 
     text-decoration: none;
 
-    font-weight: bold;
+    color: #4A5568;
 
-    color: #2F3B52;
+    font-weight: 600;
 
-    background-color: #D9DDE2;
+    background: linear-gradient(
+        #F8F8F8,
+        #E8E8E8
+    );
 
-    border: 1px solid #A8B0B8;
+    border: 1px solid #CFCFCF;
 
-    border-radius: 10px;
+    border-radius: 12px;
 
     box-shadow:
-        0px 5px 0px #A8B0B8,
-        0px 7px 12px rgba(0,0,0,0.15);
+        0px 3px 6px rgba(0,0,0,0.12);
 
     transition: all 0.15s ease;
 }
 
 .navButton:hover
 {
-    background-color: #E7EAEE;
+    background:
+        linear-gradient(
+            #FFFFFF,
+            #ECECEC
+        );
 }
 
 .navButton:active
 {
-    transform: translateY(4px);
+    transform: translateY(2px);
 
     box-shadow:
-        0px 1px 0px #A8B0B8;
-
-    background-color: #CDD2D8;
+        0px 1px 3px rgba(0,0,0,0.12);
 }
 
 .subtitle
@@ -133,15 +144,15 @@ nav
 
 .inventorLine
 {
-    margin-top: 10px;
+    margin-top: 8px;
 
-    font-size: 1.15em;
+    font-size: 1em;
 
-    color: #4D5A70;
+    color: #6B7280;
 
-    font-weight: bold;
+    font-weight: 500;
 
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 footer
