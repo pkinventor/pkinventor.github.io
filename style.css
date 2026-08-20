@@ -130,6 +130,19 @@ nav
     background-color: #CDD2D8;
 }
 
+.subtitle
+{
+    font-size: 1.1em;
+
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+
+    color: #607080;
+
+    font-weight: bold;
+}
+
 footer
 {
     margin-top: 40px;
