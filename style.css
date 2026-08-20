@@ -4,16 +4,25 @@ body
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    line-height: 1.6;
-    background-color: #f8f8f8;
+
+    background-color: #EEF3F7;
+
+    color: #303030;
+    line-height: 1.7;
 }
 
 header
 {
-    background-color: #003366;
-    color: white;
+    background-color: #FFF4B8;
+
+    color: #2F3B52;
+
     padding: 30px;
-    border-radius: 10px;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0px 4px 12px rgba(0,0,0,0.15);
 }
 
 h1
@@ -23,24 +32,22 @@ h1
 
 h2
 {
-    color: #003366;
+    color: #2F3B52;
     margin-top: 40px;
 }
 
 section
 {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-}
+    background-color: #FFFFFF;
 
-footer
-{
-    margin-top: 40px;
-    text-align: center;
-    color: #666;
-    font-size: 0.9em;
+    padding: 25px;
+
+    margin-top: 20px;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0px 2px 8px rgba(0,0,0,0.08);
 }
 
 ul
@@ -58,23 +65,51 @@ nav
 {
     display: inline-block;
 
-    background-color: #003366;
-    color: white;
+    padding: 12px 28px;
+
+    margin-right: 12px;
 
     text-decoration: none;
 
-    padding: 12px 25px;
-
-    border-radius: 8px;
-
-    margin-right: 10px;
-
     font-weight: bold;
 
-    transition: background-color 0.3s;
+    color: #2F3B52;
+
+    background-color: #D9DDE2;
+
+    border: 1px solid #A8B0B8;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0px 5px 0px #A8B0B8,
+        0px 7px 12px rgba(0,0,0,0.15);
+
+    transition: all 0.15s ease;
 }
 
 .navButton:hover
 {
-    background-color: #0055aa;
+    background-color: #E7EAEE;
+}
+
+.navButton:active
+{
+    transform: translateY(4px);
+
+    box-shadow:
+        0px 1px 0px #A8B0B8;
+
+    background-color: #CDD2D8;
+}
+
+footer
+{
+    margin-top: 40px;
+
+    text-align: center;
+
+    color: #666;
+
+    font-size: 0.9em;
 }
