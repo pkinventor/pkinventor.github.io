@@ -143,6 +143,19 @@ nav
     font-weight: bold;
 }
 
+.inventorLine
+{
+    margin-top: 10px;
+
+    font-size: 1.15em;
+
+    color: #4D5A70;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
 footer
 {
     margin-top: 40px;
