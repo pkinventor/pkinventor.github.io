@@ -176,3 +176,22 @@ footer
 
     font-size: 0.9em;
 }
+
+.footerLinks
+{
+    margin-top: 10px;
+}
+
+.footerLinks a
+{
+    color: #6B7280;
+
+    text-decoration: none;
+
+    font-size: 0.9em;
+}
+
+.footerLinks a:hover
+{
+    text-decoration: underline;
+}
