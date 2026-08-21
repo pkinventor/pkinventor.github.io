@@ -81,6 +81,16 @@ img
         0 4px 10px rgba(0,0,0,0.15);
 }
 
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+
+    max-width: 1000px;
+    width: 95%;
+
+    margin: 0 auto;
+}
+
 section
 {
     background-color: #FFFFFF;
