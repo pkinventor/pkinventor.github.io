@@ -264,3 +264,38 @@ footer
     box-shadow:
         0 4px 12px rgba(0,0,0,0.15);
 }
+
+.vision-box
+{
+    background: linear-gradient(
+        135deg,
+        #eef2ff,
+        #f8f5ff
+    );
+
+    border-left: 6px solid #6b7fd7;
+
+    padding: 25px;
+
+    margin-top: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.vision-box h3
+{
+    color: #4a5bb8;
+    margin-top: 0;
+}
+
+.vision-box p
+{
+    margin-bottom: 15px;
+}
+
+.vision-box em
+{
+    color: #555;
+}
