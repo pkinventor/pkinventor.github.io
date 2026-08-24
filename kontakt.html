@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
 
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kontakt - Peter Kuntschitsch</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Kontakt</h1>
+
+    <p>
+        Nachricht direkt über das Kontaktformular senden
+    </p>
+
+</header>
+
+<nav>
+
+    <a class="nav-button" href="index.html">Startseite</a>
+
+    <a class="nav-button" href="patente.html">Patente</a>
+
+</nav>
+
+<section>
+
+    <h2>Kontaktformular</h2>
+
+    <p>
+        Sie können mir hier direkt eine Nachricht senden.
+    </p>
+
+    <form
+        action="https://formspree.io/f/XXXXXXXX"
+        method="POST">
+
+        <label for="name">Name</label><br>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            required>
+
+        <br><br>
+
+        <label for="email">E-Mail</label><br>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            required>
+
+        <br><br>
+
+        <label for="message">Nachricht</label><br>
+
+        <textarea
+            id="message"
+            name="message"
+            rows="8"
+            required></textarea>
+
+        <br><br>
+
+        <button
+            type="submit"
+            class="nav-button">
+
+            Nachricht senden
+
+        </button>
+
+    </form>
+
+</section>
+
+<footer>
+
+    <p>
+        © 2014 - 2026 Ing. Peter Kuntschitsch
+    </p>
+
+</footer>
+
+</body>
+</html>
