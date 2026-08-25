@@ -361,6 +361,11 @@ textarea
     width: 300px;
     height: auto;
     display: block;
+
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
 }
 
 .heroText
