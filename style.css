@@ -319,21 +319,6 @@ footer
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-@media (max-width: 768px)
-{
-    .about-container
-    {
-        flex-direction: column;
-    }
-
-    .about-image
-    {
-        flex: none;
-        max-width: 280px;
-        margin: 0 auto;
-    }
-}
-
 .vision-box em
 {
     color: #555;
@@ -373,7 +358,7 @@ textarea
 
 .heroLogo img
 {
-    width: 180px;
+    width: 300px;
     height: auto;
     display: block;
 }
