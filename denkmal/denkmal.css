@@ -167,6 +167,8 @@ h3 {
 
 .wikiTitle
 {
+   justify-self: center;
+   
     font-size: 1.8rem;
     font-weight: 700;
 
@@ -190,6 +192,8 @@ h3 {
 
 .wikiLogo
 {
+   justify-self: start;
+   
     width: 40px;
     height: 40px;
 }
