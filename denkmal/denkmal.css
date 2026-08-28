@@ -138,14 +138,14 @@ h3 {
 
 .wikiBrand img
 {
-    width: 40px !important;
-    height: 40px !important;
+    width: 60px !important;
+    height: 60px !important;
 
-    min-width: 40px;
-    min-height: 40px;
+    min-width: 20px;
+    min-height: 20px;
 
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 60px;
+    max-height: 60px;
 
     object-fit: contain;
 
@@ -154,8 +154,8 @@ h3 {
 
 .wikiBrand img
 {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     flex-shrink: 0;
 }
 
@@ -170,14 +170,14 @@ h3 {
     font-size: 1.8rem;
     font-weight: 700;
 
-    color: #202122;
+    color: #3B3F82;
 }
 
 .wikiAuthor
 {
     margin-left: auto;
 
-    font-size: 0.9rem;
+    font-size: 0.5rem;
 
     color: #3366cc;
     text-decoration: none;
@@ -190,8 +190,8 @@ h3 {
 
 .wikiLogo
 {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
 }
 
 /* =========================
