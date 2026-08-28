@@ -183,9 +183,13 @@ h3 {
 
 .wikiTitle
 {
-   justify-self: center;
-   
-    font-size: 1.8rem;
+    position: absolute;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    font-size: 2.2rem;
     font-weight: 700;
 
     color: #281DD9;
@@ -212,6 +216,22 @@ h3 {
    
     width: 40px;
     height: 40px;
+}
+
+.splitter
+{
+    width: 6px;
+
+    background: #c8c8c8;
+
+    cursor: col-resize;
+
+    flex-shrink: 0;
+}
+
+.splitter:hover
+{
+    background: #888888;
 }
 
 /* =========================
