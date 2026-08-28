@@ -128,14 +128,14 @@ h3 {
 {
     border-bottom: 1px solid #dcdcdc;
     background: #fafafa;
-    padding: 8px 20px;
+    padding: 4px 20px;
 }
 
 .wikiBrand
 {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
 
     text-decoration: none;
     color: inherit;
@@ -143,8 +143,9 @@ h3 {
 
 .wikiBrand img
 {
-    width: 36px;
-    height: 36px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
 }
 
 .wikiBrandText
@@ -155,15 +156,16 @@ h3 {
 
 .wikiTitle
 {
-    font-size: 1rem;
-    font-weight: 700;
-    color: #202122;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.1;
 }
 
 .wikiAuthor
 {
-    font-size: 0.75rem;
+    font-size: 0.70rem;
     color: #666;
+    line-height: 1.1;
 }
 
 /* =========================
