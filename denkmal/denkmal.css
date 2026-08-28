@@ -126,14 +126,23 @@ h3 {
 
 .wikiTopBar
 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 70px;
+
     display: flex;
     align-items: center;
-    gap: 12px;
 
-    padding: 10px 20px;
+    padding: 0 20px;
 
     background: #E0FCFB;
+
     border-bottom: 1px solid #dcdcdc;
+
+    z-index: 1000;
 }
 
 .wikiBrand img
