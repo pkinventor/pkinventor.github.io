@@ -35,21 +35,17 @@ body
    Sidebar
 ========================= */
 
-.sidebar {
-
-    width: 320px;
+.sidebar
+{
+    width: 380px;
 
     padding: 30px;
 
     background: #ECF5F5;
 
-    border-right: 1px solid #d0d0d0;
-
-    position: sticky;
-    top: 0;
-
-    height: 100vh;
     overflow-y: auto;
+
+    flex-shrink: 0;
 }
 
 .sidebar h2 {
