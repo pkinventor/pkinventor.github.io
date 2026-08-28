@@ -120,6 +120,52 @@ h3 {
     font-size: 1.3rem;
 }
 
+/* =======================================================
+   Kopfbereich
+   ======================================================= */
+
+.wikiTopBar
+{
+    border-bottom: 1px solid #dcdcdc;
+    background: #fafafa;
+    padding: 8px 20px;
+}
+
+.wikiBrand
+{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    text-decoration: none;
+    color: inherit;
+}
+
+.wikiBrand img
+{
+    width: 36px;
+    height: 36px;
+}
+
+.wikiBrandText
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.wikiTitle
+{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #202122;
+}
+
+.wikiAuthor
+{
+    font-size: 0.75rem;
+    color: #666;
+}
+
 /* =========================
    Mobile
 ========================= */
