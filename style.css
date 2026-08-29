@@ -442,8 +442,8 @@ textarea
 
     display: inline-block;
 
-    width: 60px;
-    height: 60px;
+    width: 120px;
+    height: 120px;
 
     overflow: hidden;
 
@@ -489,6 +489,17 @@ textarea
 .bookButton:hover .bookOpen
 {
     opacity: 1;
+}
+
+.bookButtonText
+{
+    margin-top: 12px;
+
+    font-size: 1rem;
+
+    color: #304b78;
+
+    font-weight: 600;
 }
 
 
