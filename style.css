@@ -436,6 +436,51 @@ textarea
     box-shadow: 0 6px 18px rgba(0,0,0,0.20);
 }
 
+.bookButton
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 50px;
+    height: 50px;
+
+    cursor: pointer;
+}
+
+.bookButton img
+{
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 50px;
+    height: 50px;
+
+    transition: opacity 0.35s ease;
+}
+
+.bookClosed
+{
+    opacity: 1;
+}
+
+.bookOpen
+{
+    opacity: 0;
+}
+
+.bookButton:hover .bookClosed
+{
+    opacity: 0;
+}
+
+.bookButton:hover .bookOpen
+{
+    opacity: 1;
+}
+
 @media (max-width: 800px)
 {
     .heroHeader
